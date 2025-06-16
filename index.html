@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ClarunIT – Database Consulting & IT Solutions</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <div class="container nav-container">
+      <h1 class="logo">ClarunIT</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h2>Premier Database Consulting &amp; IT Services</h2>
+      <p>Elevate your enterprise with excellence</p>
+      <a href="#contact" class="btn">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="services container">
+    <h2>Our Core Services</h2>
+    <div class="service-grid">
+
+      <div class="card">
+        <h3>Database Engineering</h3>
+        <p>Design, optimize and maintain enterprise database platforms for peak reliability:</p>
+        <ul>
+          <li>Performance tuning and index management</li>
+          <li>Schema design, replication, and high availability</li>
+          <li>Backup, recovery planning and automated failover</li>
+          <li>Monitoring, maintenance and routine health checks</li>
+        </ul>
+        <img src="images/db.png" alt="Database Engineering" class="service-img"/>
+      </div>
+
+      <div class="card">
+        <h3>Big Data &amp; Analytics</h3>
+        <p>Build scalable ETL pipelines and analytics platforms:</p>
+        <ul>
+          <li>Batch &amp; streaming ingestion with ADF, Glue or Dataflow</li>
+          <li>Data transformations with PySpark on Databricks or Synapse</li>
+          <li>Real-time processing &amp; event hub integration</li>
+          <li>Data governance, security and dashboarding</li>
+        </ul>
+        <img src="images/data.png" alt="Big Data & Analytics" class="service-img"/>
+      </div>
+
+      <div class="card">
+        <h3>Cross-Platform Migrations</h3>
+        <p>Migrate data between heterogeneous engines with zero downtime:</p>
+        <ul>
+          <li>Sybase → SQL Server, Oracle → PostgreSQL, etc.</li>
+          <li>Custom ETL workflows &amp; data validation</li>
+          <li>Rollback strategies &amp; automated testing</li>
+          <li>Minimal-downtime cutover planning</li>
+        </ul>
+        <img src="images/oracle.png" alt="Cross-Platform Migrations" class="service-img"/>
+      </div>
+
+      <div class="card">
+        <h3>Cloud Migrations</h3>
+        <p>Modernize or move your databases to the cloud:</p>
+        <ul>
+          <li>On-premises Oracle → Oracle Cloud</li>
+          <li>SQL Server → Azure SQL Managed Instance</li>
+          <li>MySQL/PostgreSQL → AWS RDS &amp; Aurora</li>
+          <li>MongoDB → CosmosDB with global distribution</li>
+        </ul>
+        <img src="images/cloud.png" alt="Cloud Migrations" class="service-img"/>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT US -->
+  <section id="about" class="about container">
+    <div class="about-box">
+      <h2>About ClarunIT</h2>
+      <p>Since 2010, ClarunIT has provided expert database consulting to finance, healthcare and retail clients. Our certified team (Oracle OCM, Microsoft MCSE, AWS &amp; Azure) combines technical excellence with business insight.</p>
+      <p>We partner with you to:</p>
+      <ul>
+        <li><strong>Assess:</strong> Review architecture, performance and cost.</li>
+        <li><strong>Design:</strong> Architect secure, scalable, compliant systems.</li>
+        <li><strong>Implement:</strong> Execute migrations, IaC deployments &amp; CI/CD.</li>
+        <li><strong>Support:</strong> 24×7 monitoring, proactive maintenance &amp; strategy reviews.</li>
+      </ul>
+      <p><em>Excellence, Integrity, Collaboration &amp; Innovation</em> guide every engagement.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact container">
+    <div class="contact-box">
+      <h2>Contact Us</h2>
+      <p>Please use the form below and we'll respond within one business day.</p>
+      <form class="contact-form" action="#" method="post">
+        <div class="form-row">
+          <div class="form-group full">
+            <label for="firstName">First Name</label>
+            <input id="firstName" name="firstName" type="text" placeholder="First name" required/>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group full">
+            <label for="lastName">Last Name</label>
+            <input id="lastName" name="lastName" type="text" placeholder="Last name" required/>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group full">
+            <label for="email">Email Address</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required/>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group full">
+            <label for="phone">Phone Number</label>
+            <input id="phone" name="phone" type="tel" placeholder="+1 (555) 123-4567" required/>
+          </div>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-container">
+      <ul class="footer-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <p>© 2025 ClarunIT. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
