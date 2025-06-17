@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Clarun IT – Database Consulting & IT Solutions</title>
+  <title>ClarunIT – Expert IT & Database Consulting</title>
+  <!-- CSS now references image/hero-bg.jpg for the background -->
   <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
@@ -11,7 +12,7 @@
   <!-- NAVBAR -->
   <header>
     <div class="container nav-container">
-      <h1 class="logo">Clarun IT</h1>
+      <h1 class="logo">ClarunIT</h1>
       <nav>
         <ul class="nav-links">
           <li><a href="#home">Home</a></li>
@@ -26,10 +27,10 @@
   <!-- HERO -->
   <section id="home" class="hero">
     <div class="hero-overlay"></div>
-    <div class="hero-content">
-      <h2>Expert Database Consulting &amp; Cloud Migration</h2>
-      <p>Elevate your enterprise with excellence</p>
-      <a href="#contact" class="btn">Contact Us</a>
+    <div class="hero-content container">
+      <h2>Expert IT & Database Consulting</h2>
+      <p>From enterprise RDBMS tuning to NoSQL architecture, big-data pipelines and zero-downtime cloud migrations—ClarunIT delivers end-to-end solutions.</p>
+      <a href="#contact" class="btn">Get in Touch</a>
     </div>
   </section>
 
@@ -37,107 +38,92 @@
   <section id="services" class="services container">
     <h2>Our Core Services</h2>
     <div class="service-grid">
-
       <div class="card">
         <h3>Database Engineering</h3>
-        <p>Design, optimize and maintain enterprise database platforms for peak reliability:</p>
+        <p>We architect, implement and optimize relational & NoSQL platforms:</p>
         <ul>
-          <li>Performance tuning and index management</li>
-          <li>Schema design, replication, and high availability</li>
-          <li>Backup, recovery planning and automated failover</li>
-          <li>Monitoring, maintenance and routine health checks</li>
+          <li>Performance tuning & index optimization for Oracle, MS-SQL, Sybase, PostgreSQL & MySQL</li>
+          <li>Schema design, partitioning, replication & high-availability</li>
+          <li>Backup strategies, disaster-recovery planning & automated failover</li>
+          <li>Document-store modeling with MongoDB & CosmosDB</li>
         </ul>
-        <img src="image/db.png" alt="Database Engineering" class="service-img"/>
       </div>
-
       <div class="card">
-        <h3>Big Data &amp; Analytics</h3>
-        <p>Build scalable ETL pipelines and analytics platforms:</p>
+        <h3>Big Data & Analytics</h3>
+        <p>Modern LakeHouse architectures for batch & streaming ETL:</p>
         <ul>
-          <li>Batch &amp; streaming ingestion with ADF, Glue or Dataflow</li>
-          <li>Data transformations with PySpark on Databricks or Synapse</li>
-          <li>Real-time processing &amp; event hub integration</li>
-          <li>Data governance, security and dashboarding</li>
+          <li>Data ingestion with Azure Data Factory, AWS Glue or GCP Dataflow</li>
+          <li>ETL transforms using PySpark on Databricks or Synapse</li>
+          <li>Real-time processing with structured streaming & event hubs</li>
+          <li>Analytics pipelines, ML model integration & dashboarding</li>
         </ul>
-        <img src="image/data.png" alt="Big Data & Analytics" class="service-img"/>
       </div>
-
       <div class="card">
         <h3>Cross-Platform Migrations</h3>
-        <p>Migrate data between heterogeneous engines with zero downtime:</p>
+        <p>Seamless data moves across heterogeneous engines:</p>
         <ul>
-          <li>Sybase → SQL Server, Oracle → PostgreSQL, etc.</li>
-          <li>Custom ETL workflows &amp; data validation</li>
-          <li>Rollback strategies &amp; automated testing</li>
-          <li>Minimal-downtime cutover planning</li>
+          <li>Schema conversion & data mapping (e.g. Sybase → SQL Server, Oracle → PostgreSQL)</li>
+          <li>Custom ETL pipelines ensuring data integrity & referential consistency</li>
+          <li>Automated testing, validation & rollback plans for zero-downtime cutovers</li>
         </ul>
-        <img src="image/oracle.png" alt="Cross-Platform Migrations" class="service-img"/>
       </div>
-
       <div class="card">
-        <h3>Cloud Migrations</h3>
-        <p>Modernize or move your databases to the cloud:</p>
+        <h3>Cloud Database Migrations</h3>
+        <p>Lift-and-shift or modernize to cloud-native services:</p>
         <ul>
-          <li>On-premises Oracle → Oracle Cloud</li>
+          <li>On-premises Oracle → Oracle Cloud Infrastructure</li>
           <li>SQL Server → Azure SQL Managed Instance</li>
-          <li>MySQL/PostgreSQL → AWS RDS &amp; Aurora</li>
+          <li>MySQL/PostgreSQL → AWS RDS & Aurora</li>
           <li>MongoDB → CosmosDB with global distribution</li>
         </ul>
-        <img src="image/cloud.png" alt="Cloud Migrations" class="service-img"/>
       </div>
-
     </div>
   </section>
 
   <!-- ABOUT US -->
   <section id="about" class="about container">
     <div class="about-box">
-      <h2>About Clarun IT</h2>
-      <p>Since 2010, Clarun IT has provided expert database consulting to finance, healthcare and retail clients. Our certified team (Oracle OCM, Microsoft MCSE, AWS &amp; Azure) combines technical excellence with business insight.</p>
-      <p>We partner with you to:</p>
+      <h2>About ClarunIT</h2>
+      <p>Founded in 2010, ClarunIT is a boutique consultancy specializing in mission-critical database solutions. Our team holds Oracle OCM, Microsoft MCSE, AWS & Azure certifications and has delivered projects for Fortune 500 clients across finance, healthcare and retail.</p>
+      <p><strong>Our approach:</strong></p>
       <ul>
-        <li><strong>Assess:</strong> Review architecture, performance and cost.</li>
-        <li><strong>Design:</strong> Architect secure, scalable, compliant systems.</li>
-        <li><strong>Implement:</strong> Execute migrations, IaC deployments &amp; CI/CD.</li>
-        <li><strong>Support:</strong> 24×7 monitoring, proactive maintenance &amp; strategy reviews.</li>
+        <li><strong>Assess:</strong> Comprehensive health-checks, performance baselining & cost analysis.</li>
+        <li><strong>Design:</strong> Future-proof architectures, security hardening & compliance mapping.</li>
+        <li><strong>Implement:</strong> Automated IaC deployments (Terraform, ARM templates), CI/CD pipelines & detailed cutover planning.</li>
+        <li><strong>Support:</strong> 24×7 monitoring, proactive tuning sprints & quarterly roadmap reviews.</li>
       </ul>
-      <p><em>Excellence, Integrity, Collaboration &amp; Innovation</em> guide every engagement.</p>
     </div>
   </section>
 
   <!-- CONTACT -->
   <section id="contact" class="contact container">
-    <div class="contact-box">
-      <h2>Contact Us</h2>
-      <p>Please use the form below and we'll respond within one business day.</p>
-      <form class="contact-form" action="#" method="post">
-        <div class="form-row">
-          <div class="form-group full">
-            <label for="firstName">First Name</label>
-            <input id="firstName" name="firstName" type="text" placeholder="First name" required/>
-          </div>
+    <h2>Contact Us</h2>
+    <p>Ready to optimize your data estate or migrate to the cloud? Fill out the form and our senior engineer will be in touch within 24 hours.</p>
+    <form action="send_mail.php" method="post" class="contact-form">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="firstName">First Name</label>
+          <input type="text" id="firstName" name="firstName" placeholder="Your first name" required/>
         </div>
-        <div class="form-row">
-          <div class="form-group full">
-            <label for="lastName">Last Name</label>
-            <input id="lastName" name="lastName" type="text" placeholder="Last name" required/>
-          </div>
+        <div class="form-group">
+          <label for="lastName">Last Name</label>
+          <input type="text" id="lastName" name="lastName" placeholder="Your last name" required/>
         </div>
-        <div class="form-row">
-          <div class="form-group full">
-            <label for="email">Email Address</label>
-            <input id="email" name="email" type="email" placeholder="you@example.com" required/>
-          </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group full">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required/>
         </div>
-        <div class="form-row">
-          <div class="form-group full">
-            <label for="phone">Phone Number</label>
-            <input id="phone" name="phone" type="tel" placeholder="+1 (555) 123-4567" required/>
-          </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group full">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567" required/>
         </div>
-        <button type="submit" class="btn">Submit</button>
-      </form>
-    </div>
+      </div>
+      <button type="submit" class="btn">Submit</button>
+    </form>
   </section>
 
   <!-- FOOTER -->
@@ -149,7 +135,7 @@
         <li><a href="#about">About Us</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <p>© 2025 Clarun IT. All rights reserved.</p>
+      <p>© 2025 ClarunIT. All rights reserved.</p>
     </div>
   </footer>
 
