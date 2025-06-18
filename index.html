@@ -4,7 +4,6 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>ClarunIT – Expert IT & Database Consulting</title>
-  <!-- CSS now references image/hero-bg.jpg for the background -->
   <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
@@ -29,7 +28,7 @@
     <div class="hero-overlay"></div>
     <div class="hero-content container">
       <h2>Expert IT & Database Consulting</h2>
-      <p>From enterprise RDBMS tuning to NoSQL architecture, big-data pipelines and zero-downtime cloud migrations—ClarunIT delivers end-to-end solutions.</p>
+      <p>Elevate your enterprise with excellence</p>
       <a href="#contact" class="btn">Get in Touch</a>
     </div>
   </section>
@@ -38,45 +37,47 @@
   <section id="services" class="services container">
     <h2>Our Core Services</h2>
     <div class="service-grid">
+
       <div class="card">
         <h3>Database Engineering</h3>
-        <p>We architect, implement and optimize relational & NoSQL platforms:</p>
         <ul>
-          <li>Performance tuning & index optimization for Oracle, MS-SQL, Sybase, PostgreSQL & MySQL</li>
-          <li>Schema design, partitioning, replication & high-availability</li>
-          <li>Backup strategies, disaster-recovery planning & automated failover</li>
-          <li>Document-store modeling with MongoDB & CosmosDB</li>
+          <li>High-performance tuning & indexing for Oracle, SQL Server & PostgreSQL</li>
+          <li>Design of replication, partitioning & HA architectures</li>
+          <li>Backup, DR planning & automated failover strategies</li>
         </ul>
+        <img src="image/db.png" alt="Database Engineering" class="service-icon">
       </div>
+
       <div class="card">
         <h3>Big Data & Analytics</h3>
-        <p>Modern LakeHouse architectures for batch & streaming ETL:</p>
         <ul>
-          <li>Data ingestion with Azure Data Factory, AWS Glue or GCP Dataflow</li>
-          <li>ETL transforms using PySpark on Databricks or Synapse</li>
-          <li>Real-time processing with structured streaming & event hubs</li>
-          <li>Analytics pipelines, ML model integration & dashboarding</li>
+          <li>Batch ETL with ADF, AWS Glue or GCP Dataflow</li>
+          <li>Streaming pipelines on Databricks & Synapse using PySpark</li>
+          <li>ML integration & dashboarding for actionable insights</li>
         </ul>
+        <img src="image/da.png" alt="Big Data & Analytics" class="service-icon">
       </div>
+
       <div class="card">
         <h3>Cross-Platform Migrations</h3>
-        <p>Seamless data moves across heterogeneous engines:</p>
         <ul>
-          <li>Schema conversion & data mapping (e.g. Sybase → SQL Server, Oracle → PostgreSQL)</li>
-          <li>Custom ETL pipelines ensuring data integrity & referential consistency</li>
-          <li>Automated testing, validation & rollback plans for zero-downtime cutovers</li>
+          <li>Schema conversion & data mapping across heterogeneous engines</li>
+          <li>Custom ETL pipelines with integrity & rollback testing</li>
+          <li>Zero-downtime cutover planning & execution</li>
         </ul>
+        <img src="image/oracle.png" alt="Cross-Platform Migrations" class="service-icon">
       </div>
+
       <div class="card">
         <h3>Cloud Database Migrations</h3>
-        <p>Lift-and-shift or modernize to cloud-native services:</p>
         <ul>
-          <li>On-premises Oracle → Oracle Cloud Infrastructure</li>
-          <li>SQL Server → Azure SQL Managed Instance</li>
-          <li>MySQL/PostgreSQL → AWS RDS & Aurora</li>
-          <li>MongoDB → CosmosDB with global distribution</li>
+          <li>Lift-and-shift to OCI, Azure SQL or AWS RDS/Aurora</li>
+          <li>Cloud-native redesign with autoscaling & global distribution</li>
+          <li>Security hardening, compliance & cost optimization</li>
         </ul>
+        <img src="image/cloud.png" alt="Cloud Database Migrations" class="service-icon">
       </div>
+
     </div>
   </section>
 
@@ -98,32 +99,8 @@
   <!-- CONTACT -->
   <section id="contact" class="contact container">
     <h2>Contact Us</h2>
-    <p>Ready to optimize your data estate or migrate to the cloud? Fill out the form and our senior engineer will be in touch within 24 hours.</p>
-    <form action="send_mail.php" method="post" class="contact-form">
-      <div class="form-row">
-        <div class="form-group">
-          <label for="firstName">First Name</label>
-          <input type="text" id="firstName" name="firstName" placeholder="Your first name" required/>
-        </div>
-        <div class="form-group">
-          <label for="lastName">Last Name</label>
-          <input type="text" id="lastName" name="lastName" placeholder="Your last name" required/>
-        </div>
-      </div>
-      <div class="form-row">
-        <div class="form-group full">
-          <label for="email">Email Address</label>
-          <input type="email" id="email" name="email" placeholder="you@example.com" required/>
-        </div>
-      </div>
-      <div class="form-row">
-        <div class="form-group full">
-          <label for="phone">Phone Number</label>
-          <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567" required/>
-        </div>
-      </div>
-      <button type="submit" class="btn">Submit</button>
-    </form>
+    <p>Have questions or need a quote? Reach out via email:</p>
+    <p><a href="mailto:clarunit@gmail.com" class="btn">Send Email</a></p>
   </section>
 
   <!-- FOOTER -->
@@ -135,6 +112,11 @@
         <li><a href="#about">About Us</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <div class="footer-info">
+        <p><strong>ClarunIT</strong> – Expert IT & Database Consulting</p>
+        <p>Email: <a href="mailto:clarunit@gmail.com">clarunit@gmail.com</a></p>
+        <p>Location: Mississauga, Ontario</p>
+      </div>
       <p>© 2025 ClarunIT. All rights reserved.</p>
     </div>
   </footer>
